@@ -1,0 +1,41 @@
+{
+ "id": "Tokyo",
+ "name": "טוקיו, יפן – מידע למטייל",
+ "short_name": "טוקיו",
+ "description": "מדריך מטייל מקיף לטוקיו, יפן: מפות, אתרים, מלונות, תחבורה, מסעדות, מסלולים ותחזית",
+ "lang": "he",
+ "dir": "rtl",
+ "start_url": "./index.html",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "any",
+ "background_color": "#2b1055",
+ "theme_color": "#7b1fa2",
+ "launch_handler": {
+  "client_mode": "focus-existing"
+ },
+ "categories": [
+  "travel",
+  "navigation"
+ ],
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
